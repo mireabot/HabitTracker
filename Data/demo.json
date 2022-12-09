@@ -1,0 +1,19 @@
+[
+    {
+      "id": 1,
+      "icon": "sport",
+      "name": "Push Ups",
+      "target": 10,
+      "days": [
+        { "comment": "Fist time is always hard" },
+        { "comment": "Made 2 push ups" }
+      ]
+    },
+    {
+      "id": 2,
+      "icon": "food",
+      "name": "Healthy food",
+      "target": 10,
+      "days": [{ "comment": "Healthy food is awesome" }]
+    }
+  ]
