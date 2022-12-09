@@ -4,9 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello world!</title>
-    <script src="./app.js"></script>
+    <title>Habbit Tracker</title>
+    <script src="./scripts/app.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link 
+    href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600&family=Raleway:ital,wght@0,500;0,700;1,700&display=swap" 
+    rel="stylesheet">
+    <link 
+    rel="stylesheet" 
+    href="./Styles/styles.css"/>
 </head>
-<body style="background-color: darkgrey; text-align: left;">
+<body>
+    <div class="app">
+        <div class="panel">
+              <img class="logo" src="/Images/logo.svg" alt="Logo Habbit App">
+              <nav class="menu">
+                 <div class="menu_list">
+                    <button class="menu_item menu_item_active">
+                        <img src="./Images/water.svg" alt="Water">
+                     </button>
+                     <button class="menu_item">
+                        <img src="./Images/food.svg" alt="Food">
+                     </button>
+                 </div>
+                 <button class="menu_add">
+                    <img src="./Images/add.svg" alt="Add habbit">
+                 </button>
+              </nav>
+        </div>
+        <div class="content">
+            <header>
+                <h1>Push Ups</h1>
+                <div class="progress">
+                    <div class="progress_text">
+                        <div class="progress_name">Progress</div>
+                        <div class="progress_percent">80%</div>
+                    </div>
+                    <div class="progress_bar">
+                        <div class="progress_cover"></div>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <div>
+                    <div class="habbit">
+                        <div class="habbit_day">
+                            Day 1
+                        </div>
+                        <div class="habbit_comment">
+                            Comment
+                        </div>
+                        <button class="habbit_delete">
+                            <img src="./Images/delete.svg" alt="Delete">
+                        </button>
+                    </div>
+                    <div class="habbit">
+                        <div class="habbit_day">
+                            Day 2
+                        </div>
+                        <form class="habbit_form">
+                            <input class="input_icon" type="text" placeholder="Comment">
+                            <img class="input__icon" src="/Images/comment.svg" alt="Habbit comment"/>
+                            <button class="button">Add</button>
+                        </form>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
 </body>
 </html>
