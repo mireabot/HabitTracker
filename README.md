@@ -12,8 +12,8 @@ About - Web application for final project at college (CSC 101)
 - How to make websites with dynamic render
 
 # Images
-![screenshot]("https://github.com/mireabot/HabitTracker/blob/master/habbitMain.png")
-![screenshot]("https://github.com/mireabot/HabitTracker/blob/master/habbitPop.png")
+![screenshot](https://github.com/mireabot/HabitTracker/blob/master/habbitMain.png)
+![screenshot](https://github.com/mireabot/HabitTracker/blob/master/habbitPop.png)
 
 # Licence 
 MIT
